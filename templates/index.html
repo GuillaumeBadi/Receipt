@@ -1,0 +1,33 @@
+
+<h1
+  style="
+    font-weight: lighter;
+    color: #4183D7;
+    font-familly: Helvetica;">
+  {{message}}
+</h1>
+<br><br>
+<p
+  style="
+    color: grey;
+    font-weight: lighter;">
+  {{title}}</p>
+
+<table
+  border="1"
+  style="
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid silver;
+    color: #424242;
+    width: 60%"
+  cellpadding="10"
+  cellspacing="3">
+  {{#products}}
+	<tr>
+		<td>{{name}}</td>
+		<td>{{quantity}}</td>
+		<td>{{price}}</td>
+	</tr>
+  {{/products}}
+</table>

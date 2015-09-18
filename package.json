@@ -1,0 +1,16 @@
+{
+  "name": "mailjet-receipt",
+  "version": "1.0.0",
+  "description": "simply send beautiful receipt to you customers through the mailjet API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guillaume Badi <gbadi@mailjet.com> (https://github.com/GuillaumeBadi)",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.2",
+    "mu2": "latest",
+    "node-mailjet": "latest"
+  }
+}
